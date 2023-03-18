@@ -12,13 +12,14 @@ You may need to use `asdf plugin add <tool>` before installing.
 
 
 Once the tools are installed, running `bin/setup` in a terminal from 
-the project's top directory.
+the project's top directory will take care of installing Rails and all
+of the other Gems this applicaiton depends on.
 
 
 If you examine the [bin/setup](./bin/setup) file, notice that it is an
 executable Ruby script (the magic comment at the very top). This script
-is provided by Rails and runs several other scripts in order which
-install dependencies, setup database(s) and clean out old files.
+is provided by Rails and runs several other scripts which handle
+installing dependencies, setting up database(s) and general clean up.
 
 ## Run the Application
 
