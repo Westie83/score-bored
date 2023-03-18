@@ -16,6 +16,12 @@ You may need to use `asdf plugin add <tool>` before installing.
 
 * Configuration
 
+Start by running `bin/setup` in a terminal from the project directory.
+If you examine the [bin/setup](./bin/setup) file, notice that it is an
+executable Ruby script (the magic comment at the very top). This script
+is provided by Rails and runs several other scripts in order which
+install dependencies, setup database(s) and clean out old files.
+
 * Database creation
 
 * Database initialization
