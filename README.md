@@ -1,6 +1,13 @@
 # README
-## Installation and Setup
+## Installation and Setup (New)(Draft)
 
+* 1.) ensure machine can run asdf version manager 
+* 2.) examine .tool-versions file in this project’s repository
+* 3.) ensure machine has all tools installed; if necessary run asdf install <tool>
+* 4.) follow instructions (not sure where the instructions are yet) to install the .tool-versions file 
+* 5.) run asdf install to install the needed tool versions for the Project
+
+## Original:
 This project uses a `.tool-versions` file intended for use with the `asdf`
 [version manager](https://asdf-vm.com/). After following the instructions
 to install it your machine, you should be able to run
