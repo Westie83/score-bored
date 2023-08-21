@@ -4,7 +4,9 @@
 * 1.) ensure machine can run asdf version manager 
 * 2.) examine .tool-versions file in this project’s repository
 * 3.) ensure machine has all tools installed; if necessary run asdf install <tool>
-* 4.) run bin/setup in a terminal from the project's top directory
+* 4.) run bin/setup in a terminal from the project's top directory:
+* 4.a) Open Terminal
+* 4.b) (???) Navigate to project's top directory
 * 5.) run bin/rails s
   
 
