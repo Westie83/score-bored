@@ -4,8 +4,9 @@
 * 1.) ensure machine can run asdf version manager 
 * 2.) examine .tool-versions file in this project’s repository
 * 3.) ensure machine has all tools installed; if necessary run asdf install <tool>
-* 4.) follow instructions (not sure where the instructions are yet) to install the .tool-versions file 
-* 5.) run asdf install to install the needed tool versions for the Project
+* 4.) run bin/setup in a terminal from the project's top directory
+* 5.) run bin/rails s
+  
 
 ## Original:
 This project uses a `.tool-versions` file intended for use with the `asdf`
