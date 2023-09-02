@@ -1,7 +1,26 @@
 # README
+
+These instructions require: 
+* git (to clone the repository via command line)
+* asdf version manager
+
 ## Installation and Setup (New)(Draft)
 
-* 1.) ensure machine can run asdf version manager 
+* 1.) ensure machine can run asdf version manager and git
+* 1.a) follow the following instructions to clone the repository to the directory of your choice ("projects" in our example)
+
+(make sure we go to the home directory)
+cd
+(create a projects/ directory)
+mkdir projects
+cd projects
+git clone https://github.com/westie83/score-bored
+ls
+cd score-bored
+ls
+ls bin
+bin/setup
+
 * 2.) examine .tool-versions file in this project’s repository
 * 3.) ensure machine has all tools installed; if necessary run asdf install <tool>
 * 4.) run bin/setup in a terminal from the project's top directory:
